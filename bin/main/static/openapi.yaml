@@ -1,0 +1,19 @@
+openapi: 3.0.1
+
+info:
+  title: Spring Demo
+  version: 0.0.1
+
+tags:
+  - name: Offers Controller
+    description: X - related endpoints
+
+paths:
+  /: 
+    get: 
+      tags:
+        - Offers Controller
+      summary: Create offer
+      responses:
+        "200":
+          description: "Working"
